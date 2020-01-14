@@ -1,7 +1,11 @@
 ## Neo.Natal.Application
 ### Web application developed Tri-C Coding Bootcamp
 
-This application was devevloped as part of the capstone project for my coding bootcamp. I worked in a small team to design a web application that used public demographic and geographical data to develop a profile for women who had recently given birth. Using the prototype from a medical hackathon project, Neo+Natal was designed for healthcare workers to create, store, and retrieve unique infant mortality risk profiles for their clients, in the hopes of identifying and providing immediate care for those highest at risk. 
+This application was devevloped as part of the capstone project for my coding bootcamp. I worked in a small team to design a web application that used publically available data to develop a profile for women who had recently given birth. Using the prototype from a medical hackathon project, Neo+Natal was designed for healthcare workers to create, store, and retrieve unique infant mortality risk profiles for their clients, in the hopes of identifying and providing immediate care for those highest at risk:
+
+>NEO-natal is a new approach to combating high infant mortality in many inner-cities. Recognizing that the best way to curb the problem is by focusing limited resources on the mothers with the highest probable chance of having a child die, the team developed a unique risk profile for mothers based on publically available demographic and geographic data correlated against clinical/medical research. With this new statistical tool, the team developed a short questionnaire that could be used by a community health worker to assess the risk level of a mother almost instantly.
+
+ The original prototype can be found here: [Link to Hackathon website](https://www.prweb.com/releases/2015/10/prweb12995192.htm).
 
 The application consists of three major parts: 
 
