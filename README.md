@@ -6,5 +6,28 @@ This application was devevloped as part of the capstone project for my coding bo
 The application consists of three major parts: 
 
 * The front-end UI, written in HTML, CSS, and JavaScript
-* The back-end, using ASP.NET (the part I was mostly responsible for) 
-* The database, using Microsoft SQL Server 
+* The back-end, using ASP.NET (I was the main developer for this piece) 
+* The database, using Microsoft SQL Server (I developed the database. See SQL file)
+
+My goal when developing the back-end of the application was to match the prototype as closely as possible: 
+
+***
+##### Comparing the prototype and back-end development
+
+###### The Client (front-end)
+![Image of Client prototype front-end UI](/images/SignUpNewClient.png) 
+
+###### The Client (back end)
+![Image of Client back-end code](/images/Client.png)
+
+***
+###### The Survey (front-end)
+![Image of survey prototype front-end UI](/images/ExistingSurvey.png)
+
+###### The Survey (back end)
+![Image of Survey back-end code](/images/Survey_Model.png)
+
+***
+##### The Database
+![Image of the database back-end code](/images/DB_Represetation.png)
+
