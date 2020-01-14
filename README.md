@@ -9,7 +9,7 @@ The application consists of three major parts:
 * The back-end, using ASP.NET (I was the main developer for this piece) 
 * The database, using Microsoft SQL Server (I developed the database. See SQL file)
 
-My goal when developing the back-end of the application was to match the prototype as closely as possible. (clicking images will open new page).
+My goal when developing the back-end of the application was to match the prototype as closely as possible. Below are partial code snippets that server as a way to visualize my work when building this application. (clicking images will open new page).
 
 ###  Comparing the prototype and back-end development
 
@@ -24,7 +24,6 @@ My goal when developing the back-end of the application was to match the prototy
 	title="Client Sign Up Back-end" />
 </p>
 
-***
 ###### The Survey (front-end)
 <p align="center"><img src="/images/ExistingSurvey.png" alt="Image of front-end surver UI"
 	title="Existing Survey front-end"/>
@@ -36,9 +35,9 @@ My goal when developing the back-end of the application was to match the prototy
 </p>
 
 ***
-##### The Database
+### The Database
 
-A database was developed in MSSQL Server to create, store, and edit all Client, Survey, HealthcareWorker, and Login relevant information. Some fields are nullable with the expectation that some participants would not feel comfortable answering certain questions.
+A database was developed in MSSQL Server to create, store, and edit all Client, Survey, HealthcareWorker, and Login relevant information. Some fields are nullable with the expectation that some participants would not feel comfortable answering certain questions. (clicking image to see larger version).
 
 <p align="center"><img src="/images/DB_Represetation.png" alt="Image of the database back-end code"
 	title="Back-end database" >
@@ -46,5 +45,18 @@ A database was developed in MSSQL Server to create, store, and edit all Client, 
 
 <p align="center"><img src="/images/DB_ForClient.png" alt="Image of SQK server database record of client"
 	title="Database query for client" />
+</p>
+
+***
+### The Risk Score
+
+Risk Score was calculated based on several factors, including demographic / demographic information of the client, as well as the clients personal habits. This score could be stored in the database, and would be updated if any data changed:
+
+<p align="center"><img src="images/RiskScore.png" alt="Image of client with risk score and other factors (front-end)"
+	title="Risk Score (front-end)" />
+</p>
+
+<p align="center"><img src="images/Risk_Score.png" alt="Image of client with risk score and other factors (database record)"
+	title="Risk Score (database)" />
 </p>
 
