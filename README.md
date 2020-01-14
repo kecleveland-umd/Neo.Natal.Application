@@ -14,24 +14,37 @@ My goal when developing the back-end of the application was to match the prototy
 ###  Comparing the prototype and back-end development
 
 ###### The Client (front-end)
-![Image of Client prototype front-end UI](/images/SignUpNewClient.png) 
+
+<p align="center"><img src="/images/SignUpNewClient.png" alt="front-end UI for signing up client"
+	title="Client Sign Up" />
+</p>
 
 ###### The Client (back end)
-![Image of Client back-end code](/images/Client.png)
+<p align="center"><img src="/images/Client.png" alt="Image of Client back-end code"
+	title="Client Sign Up Back-end" />
+</p>
 
 ***
 ###### The Survey (front-end)
-![Image of survey prototype front-end UI](/images/ExistingSurvey.png)
+<p align="center"><img src="/images/ExistingSurvey.png" alt="Image of front-end surver UI"
+	title="Existing Survey front-end"/>
+</p>
 
 ###### The Survey (back end)
-![Image of Survey back-end code](/images/Survey_Model.png)
+<p align="center"><img src="/images/Survey_Model.png" alt="Image of back-end code for survey"
+	title="Back-end survey" />
+</p>
 
 ***
 ##### The Database
 
 A database was developed in MSSQL Server to create, store, and edit all Client, Survey, HealthcareWorker, and Login relevant information. Some fields are nullable with the expectation that some participants would not feel comfortable answering certain questions.
 
-![Image of the database back-end code](/images/DB_Represetation.png)
+<p align="center"><img src="/images/DB_Represetation.png" alt="Image of the database back-end code"
+	title="Back-end database" >
+</p>
 
-![Image of the SQL Server database back-end code](/images/DB_ForClient.png)
+<p align="center"><img src="/images/DB_ForClient.png" alt="Image of SQK server database record of client"
+	title="Database query for client" />
+</p>
 
