@@ -9,10 +9,9 @@ The application consists of three major parts:
 * The back-end, using ASP.NET (I was the main developer for this piece) 
 * The database, using Microsoft SQL Server (I developed the database. See SQL file)
 
-My goal when developing the back-end of the application was to match the prototype as closely as possible: 
+My goal when developing the back-end of the application was to match the prototype as closely as possible. (clicking images will open new page).
 
-***
-##### Comparing the prototype and back-end development
+###  Comparing the prototype and back-end development
 
 ###### The Client (front-end)
 ![Image of Client prototype front-end UI](/images/SignUpNewClient.png) 
@@ -29,5 +28,10 @@ My goal when developing the back-end of the application was to match the prototy
 
 ***
 ##### The Database
+
+A database was developed in MSSQL Server to create, store, and edit all Client, Survey, HealthcareWorker, and Login relevant information. Some fields are nullable with the expectation that some participants would not feel comfortable answering certain questions.
+
 ![Image of the database back-end code](/images/DB_Represetation.png)
+
+![Image of the SQL Server database back-end code](/images/DB_ForClient.png)
 
